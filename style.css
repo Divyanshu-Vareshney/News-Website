@@ -13,5 +13,41 @@ body{
 }
 img{
     width: 100%;
+    }
     
+ul{ 
+    list-style: none;
 }
+a{
+    text-decoration: none; 
+    color: #000;
+}
+hr{
+    width:95vw;
+    margin: 0 auto;
+}
+.top-head{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    background: #000;
+    color: aliceblue;
+    padding: 20px 30px;
+}
+.top-head .fas{
+    font-size: 2rem;
+    cursor:pointer;
+}
+.times-btn{
+    display:none;
+}
+.nav-bar{
+    background:#333 ;
+
+}
+.show-nav{
+    height:auto;
+
+}
+ .nav-bar
