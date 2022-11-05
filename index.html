@@ -1,61 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News 69 || Unfolding the truth</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Bree+Serif&family=Raleway:wght@300;400;500;700;900&family=Roboto+Slab:wght@600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <title>News 69|| Unfolding the truth</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
-  <header>
-    <div class="navigation-container">
-         <div class="top-head">
-            <div class="web-name">
-                <h1>NEWS</h1>
-            </div>
-            <div class="ham-btn">
-                <span>
-                     <i class="fas fa-bars"></i>
-                </span>
-            </div>
-            <div class="times-btn">
-                <span>
-                    <i class="fas fa-times"></i>
-                </span>
-            </div>
-         </div>
+
+<body class="p-0 m-0 border-0 bd-example">
+
+  <!-- navbar  -->
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid m-0 p-0">
+        <a class="navbar-brand text-warning" href="#">News</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#dailylogs" id="Genral">Daily logs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#business" id="business">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sports" id="sport">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#technology" id="technology">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#entertainment" id="entertainment">Entertainment</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search news">
+            <button class="btn btn-outline-warning" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- news  -->
+
+  <div>
+    <div class="row" id="newsType"></div>
+    <div class="row" id="newsdetails"></div>
+  </div>
+  <!-- footer  -->
+
+  <div>
+    <div>
+      <nav class="navbar navbar-expand-lg bg-dark mt-4">
+        <div class="container-fluid">
+          <h5 class="text-white me-auto ms-auto">Code <span class="text-warning">Logic</span></h5>
+        </div>
+      </nav>
     </div>
-    <!-- navbar -->
-    <div class="nav-bar" id="nav-bar">
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Daily-news</a></li>
-                <li><a href="">Current affairs</a></li>
-                <li><a href="">Archive</a></li>
-                <li><a href="">Featured</a></li>
-                <li><a href="">Broadcast</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="social-icons">
-        <ul>
-            <li>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </li>
-        </ul>
-    </div>
-  </header>  
+  </div>
 </body>
+
 </html>
