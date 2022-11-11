@@ -1,10 +1,17 @@
- /* body{
-    background-color: blanchedalmond;
- } */
- .navbar .navbar-nav .nav-link:hover{
-   /* background-color: white; */
+ body{
+  /* background-color:rgb(0 123 255 / 68%); */
+  background-image: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=2000');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+ }
+ .nav-link{
+  color: aliceblue;
+ }
+ .nav-link:hover{
+   background-color: rgba(198, 183, 223, 0.274);
+   
    color: white;
-   border: 1px solid blue;
+   border: 2px solid rgb(57, 57, 66);
    border-radius: 5px;
    /* align-items: center;*/
    /* justify-content: center; */
@@ -18,4 +25,98 @@
  }
  .nav-link{
    margin-right: 18px;
+   color: aliceblue;
  }
+ .navbar{
+  background-color:rgb(3, 3, 3);
+  font-family: 'Space Mono', monospace;
+  font-weight: 500;
+ }
+ form #searchBt{
+font-family: 'Slabo 13px', serif;
+ }
+ 
+ .col-sm-12{
+  background-color: #343e57;
+  border: 1px solid black;
+  margin: 2.1px;
+  border-radius: 9px;
+  display:flex;
+  justify-items: center
+  
+ }
+ #newsType{
+  color:#000509;
+ }
+ #newsType h2{
+  display: block;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 9px;
+  font-weight: 700;
+
+ }
+ #newsdetails{
+  display: flex;
+  justify-content:center;
+  left: auto;
+ }
+ #newsdetails div{
+   color: rgb(75, 206, 197);
+   margin: 7px;
+ }
+ p.text-muted{
+  color: #f1f3f5;
+  
+ }
+ .d-block{
+  margin-bottom: 40px;
+ }
+ .carousel-item{
+  position: relative;
+ }
+ .carousel-item img{
+  margin-top: 10vh;
+  height: 50vh;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  justify-content: center;
+  /* background-color: rgba(0,0,0,0.6); */
+  border-radius: 12px;
+  display: block;
+   }
+   
+   .image_overlay{
+    margin-top: 10vh;
+    height: 50vh;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: center;
+    text-align: center;
+    /* background-color: rgba(0,0,0,0.6); */
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background:rgba(0,0,0,0.6); */
+    color: #000000;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition:opacity 0.25s;
+   }
+   .image_overlay:hover{
+    opacity: 1;
+   background-color:rgba(0,0,0,0.6) ;
+   }
+   .image_title{
+    font-size: 2em;
+    font-weight: bold;
+   }
+   .image_description{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+   }
