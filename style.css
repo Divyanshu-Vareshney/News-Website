@@ -1,14 +1,25 @@
- /* body{
-    background-color: blanchedalmond;
- } */
+ body{
+    /* background-color: black; */
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+    background-image: url("https://i.pinimg.com/736x/1f/f7/21/1ff721f9073c13d4931007773e0b99eb--technology-background-background-patterns.jpg");
+    background-repeat: no-repeat;
+  }
  .navbar .navbar-nav .nav-link:hover{
    /* background-color: white; */
-   color: white;
+   color: lightgray;
    border: 1px solid blue;
    border-radius: 5px;
    /* align-items: center;*/
    /* justify-content: center; */
  }
+ .navbar .navbar-nav .nav-link{
+  /* background-color: white; */
+  color: white;
+
+  /* align-items: center;*/
+  /* justify-content: center; */
+}
+
  #mama{
    height: auto;
    width: 15vw;
@@ -18,4 +29,21 @@
  }
  .nav-link{
    margin-right: 18px;
+ }
+ .col-sm-12{
+  width: 30%;
+  border: solid black 0.6px;
+  margin: 10px;
+  border-radius: 15px;
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+ }
+ .head{
+  justify-content: center;
+ }
+ .imgg{
+  margin-bottom: 30px;
+    border-radius: 10px;
+ }
+ .head{
  }

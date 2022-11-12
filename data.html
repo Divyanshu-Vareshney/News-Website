@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+    <style>
+        .box{
+            display: flex;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- main form -->
+    <div class="box">
+        <form id="formm">
+            <label for="category">category</label>
+            <select name="catego" id="category">
+                <option value="1">Entertainment</option>
+                <option value="2">Technology</option>
+                <option value="3">Sports</option>
+                <option value="4">Business</option>
+                <option value="5">General news</option>
+            </select><br>
+            <input type="button" id="sub" onclick="Category()" value="SEND">
+            <br>
+        </form>
+        <br>
+    <form>
+        <label>auther</label>
+        <input type="text" class="auther" id="auther"><br><br>
+        <label>title</label>
+        <input type="text" class="title" id="title"><br><br>
+        <label>description</label>
+        <input type="text" class="description" id="description"><br><br>
+        <label>full page link</label>
+        <input type="text" class="link" id="link"><br><br>
+        <label>image url</label>
+        <input type="text" class="url" id="url"><br><br>
+        <label>publication date</label>
+        <input type="text" class="date" id="date" placeholder="2022-11-08T10:13:48Z"><br><br>
+        <label>content</label>
+        <input type="text" class="content" id="content"><br><br>
+        <input type="button" id="formid" value="SEND">
+    </form>
+    </div>
+
+    <script src="api.js"></script>
+</body>
+</html>

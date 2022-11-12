@@ -24,7 +24,10 @@ const HEADLINES="http://localhost:3000/dailyupdates";
 
 window.onload=function(){
     newsType.innerHTML="<h2>Daily Updates</h2>";
+
+
     fetchHeadinglines();
+
 };
 
 //button triggers
@@ -141,7 +144,7 @@ const fetchTechnologyNews = async () => {
 }
 
 const fetchEntertainmentNews = async () => {
-    const response = await fetch(HEADLINES);
+    const response = await fetch(ENTERTAINMENT_NEWS);
     if(response.status >=200 && response.status<= 300){
         const myJson = await response.json();
         newsDataArr =[];
@@ -194,6 +197,7 @@ function displayNews(){
 
 
         var image=document.createElement('img');
+        image.className="imgg";
         image.setAttribute("height","matchparent")
         image.setAttribute("width","100%");
         image.src=news.urlToImage;
