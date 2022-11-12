@@ -1,22 +1,22 @@
- body{
-  /* background-color:rgb(0 123 255 / 68%); */
-  background-image: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=2000');
-  /* background-repeat: no-repeat; */
-  background-size: cover;
- }
- .nav-link{
-  color: aliceblue;
-  border-radius: 10px;
- }
- .nav-link:hover{
-   background-image: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=2000');
-   
-   color: rgb(8, 8, 8);
-   border: 2px solid rgb(191, 191, 218);
-   border-radius: 10px;
+ /* body{
+    background-color: blanchedalmond;
+ } */
+ .navbar .navbar-nav .nav-link:hover{
+   /* background-color: white; */
+   color: white;
+   border: 1px solid blue;
+   border-radius: 5px;
    /* align-items: center;*/
    /* justify-content: center; */
  }
+ .navbar .navbar-nav .nav-link{
+  /* background-color: white; */
+  color: white;
+
+  /* align-items: center;*/
+  /* justify-content: center; */
+}
+
  #mama{
    height: auto;
    width: 15vw;
@@ -80,64 +80,3 @@ font-family: 'Slabo 13px', serif;
  .carousel-item{
   position: relative;
  }
- .carousel-item img{
-  margin-top: 10vh;
-  height: 50vh;
-  width: 90vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  justify-content: center;
-  /* background-color: rgba(0,0,0,0.6); */
-  border-radius: 12px;
-  display: block;
-   }
-   
-   .image_overlay{
-    margin-top: 10vh;
-    height: 50vh;
-    width: 90vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    justify-content: center;
-    text-align: center;
-    /* background-color: rgba(0,0,0,0.6); */
-    border-radius: 12px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* background:rgba(0,0,0,0.6); */
-    color: #f4f1f1;
-    font-family: 'Roboto Slab', serif;
-    display: flex;
-    flex-direction: column;
-    opacity: 0;
-    transition:opacity 0.25s;
-   }
-   .image_overlay >*{
-    transform: translateY(20px);
-    transition: transform 0.25s;
-   }
-   .image_overlay:hover{
-    opacity: 1;
-   background-color:rgba(0,0,0,0.6) ;
-   /* color:#f1f3f5; */
-   }
-   .image_overlay:hover >*{
-      transform: translateY(0);
-   }
-
-   .image_title{
-    font-size: 2em;
-    font-weight: bold;
-     
-   }
-   .image_description{
-    font-size: 1.25em;
-    margin-top: 0.25em;
-   }
-   .text-dark{
-    font-family: 'Bree Serif', serif;
-   }
-   .card-title{
-    font-family: 'Bree Serif', serif;
-   }
