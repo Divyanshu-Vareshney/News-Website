@@ -209,7 +209,7 @@ function displayNews(){
         dateHeading.innerHTML=date[0];
 
         var discription=document.createElement('p');
-        discription.className="text-light";
+        discription.className="text-dark";
         discription.innerHTML=news.description;
         
         var link =document.createElement('a');
