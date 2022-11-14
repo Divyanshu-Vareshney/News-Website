@@ -32,27 +32,27 @@ window.onload=function(){
 
 //button triggers
 generalBtn.addEventListener("click",function() {
-    newsType.innerHTML="<h2>General News</h2>";
+    newsType.innerHTML="<h2>Academics</h2>";
     fetchGeneralNews();
 });
 
 businessBtn.addEventListener("click",function() {
-    newsType.innerHTML="<h2>Business News</h2>";
+    newsType.innerHTML="<h2>Tech Stuff</h2>";
     fetchBusinessNews();
 });
 
 sportsBtn.addEventListener("click",function() {
-    newsType.innerHTML="<h2>Sports News</h2>";
+    newsType.innerHTML="<h2>Sports</h2>";
     fetchSportsNews();
 });
 
 entertainmentBtn.addEventListener("click",function () {
-    newsType.innerHTML="<h2>Entertainment News</h2>";
+    newsType.innerHTML="<h2>Extra-Curricular Activities</h2>";
     fetchEntertainmentNews();
 });
 
 technologyBtn.addEventListener("click",function () {
-    newsType.innerHTML="<h2>Technology News</h2>";
+    newsType.innerHTML="<h2>Clubs</h2>";
     fetchTechnologyNews();
 });
 
