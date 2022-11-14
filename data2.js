@@ -44,13 +44,13 @@ entertainment.addEventListener('click',function(){
 
 var sports=document.getElementById("sports")
 sports.addEventListener('click',function(){
-    // var auther=document.getElementById("name").value;
-    // var title=document.getElementById("title").value;
-    // var description=document.getElementById("description").value;
-    // var link=document.getElementById("link").value;
-    // var url =document.getElementById("url").value;
-    // var date=document.getElementById("date").value;
-    // var content=document.getElementById("content").value;
+    var auther=document.getElementById("name").value;
+    var title=document.getElementById("title").value;
+    var description=document.getElementById("description").value;
+    var link=document.getElementById("link").value;
+    var url =document.getElementById("url").value;
+    var date=document.getElementById("date").value;
+    var content=document.getElementById("content").value;
 
     fetch("http://localhost:3000/sports",{
         method:'POST',
