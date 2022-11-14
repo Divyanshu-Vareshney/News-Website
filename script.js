@@ -1,5 +1,8 @@
 // api key c202163307084196ab5947625405dbdc
 //variables
+// const cors = require('cors');
+// app.use(cors());
+
 const generalBtn = document.getElementById("Genral");
 const businessBtn = document.getElementById("business");
 const sportsBtn = document.getElementById("sport");
@@ -12,7 +15,9 @@ const newsdetails =document.getElementById("newsdetails");
 //arrays
 var newsDataArr =[];
 
-//apis
+
+
+//apis3000
 const ENTERTAINMENT_NEWS="http://localhost:3000/entertainment";
 const GENERAL_NEWS="http://localhost:3000/general";
 const TECHNOLOGY_NEWS=" http://localhost:3000/technology";
@@ -20,7 +25,6 @@ const SPORTS_NEWS="http://localhost:3000/sports";
 const BUSINESS_NEWS="http://localhost:3000/business";
 const SEARCH_NEWS="http://localhost:3000/";
 const HEADLINES="http://localhost:3000/dailyupdates";
-
 
 window.onload=function(){
     newsType.innerHTML="<h2>Daily Updates</h2>";
@@ -47,7 +51,11 @@ sportsBtn.addEventListener("click",function() {
 });
 
 entertainmentBtn.addEventListener("click",function () {
+<<<<<<< Updated upstream
     newsType.innerHTML="<h2>Extra-Curricular Activities</h2>";
+=======
+    newsType.innerHTML="<h2>Extra-Curricular Activities </h2>";
+>>>>>>> Stashed changes
     fetchEntertainmentNews();
 });
 

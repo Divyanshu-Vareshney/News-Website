@@ -109,8 +109,13 @@ width: 95%;
   }
   .adj{
     height: 270px;
+<<<<<<< Updated upstream
     top:70px;
     width:50px;
+=======
+    top: 70px;
+    width: 50px;
+>>>>>>> Stashed changes
     margin: 40px;
     cursor: pointer;
   }
@@ -121,7 +126,7 @@ width: 95%;
   margin-right: 5vh;
   margin-top: 4vh;
     position: absolute;
-    top:0;
+   top:0;
     left:0;
     width: 100%;
     border-radius: 10px;
@@ -142,7 +147,11 @@ width: 95%;
   }
   .image_overlay:hover > * {
    transform: translateY(20px);
+<<<<<<< Updated upstream
    cursor:pointer;
+=======
+   cursor: pointer;
+>>>>>>> Stashed changes
   }
   .image_title{
     font-size:2em ;
